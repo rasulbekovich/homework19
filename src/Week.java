@@ -1,4 +1,4 @@
-public enum Juma {
+public enum Week {
     DUISHOMBU("""
             __________________________________
             | duishombu kunu:                |
@@ -42,7 +42,7 @@ public enum Juma {
             """);
     private String sabaktar;
 
-    Juma(String sabaktar) {
+    Week(String sabaktar) {
         this.sabaktar = sabaktar;
     }
 

@@ -8,25 +8,25 @@ public class Main {
         System.out.println("kaisy kundun sabaktary kerek jazynyz:");
             String kun = scanner.nextLine();
             if (Objects.equals(kun, "Monday")) {
-                Juma duishombu = Juma.DUISHOMBU;
+                Week duishombu = Week.DUISHOMBU;
                 System.out.println(duishombu);
             } else if (Objects.equals(kun,"Tuesday")) {
-                Juma sheishembi=Juma.SHEISHEMBI;
+                Week sheishembi= Week.SHEISHEMBI;
                 System.out.println(sheishembi);
             } else if (Objects.equals(kun,"Wednesday")) {
-                Juma sharshembi=Juma.SHARSHEMBI;
+                Week sharshembi= Week.SHARSHEMBI;
                 System.out.println(sharshembi);
             } else if (Objects.equals(kun,"Thursday")) {
-                Juma beishembi=Juma.BEISHEMBI;
+                Week beishembi= Week.BEISHEMBI;
                 System.out.println(beishembi);
             } else if (Objects.equals(kun,"Friday")) {
-                Juma juma=Juma.JUMA;
+                Week juma= Week.JUMA;
                 System.out.println(juma);
             } else if (Objects.equals(kun,"Saturday")) {
-                Juma ishembi=Juma.ISHEMBI;
+                Week ishembi= Week.ISHEMBI;
                 System.out.println(ishembi);
             } else if (Objects.equals(kun,"Sunday")) {
-                Juma jekshembi=Juma.JEKSHEMBI;
+                Week jekshembi= Week.JEKSHEMBI;
                 System.out.println(jekshembi);
             }else {
                 System.out.println("andai kun jok!!!");
